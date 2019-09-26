@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2EFBEC233D241300387871 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2EFBEB233D241300387871 /* UIView+Designable.swift */; };
+		7F2EFC09233D26B400387871 /* SF-Pro-Text-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBEF233D26B300387871 /* SF-Pro-Text-Black.otf */; };
+		7F2EFC0A233D26B400387871 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBF0233D26B300387871 /* SF-Pro-Text-Light.otf */; };
+		7F2EFC0B233D26B400387871 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBF1233D26B300387871 /* SF-Pro-Text-Semibold.otf */; };
+		7F2EFC0F233D26B400387871 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBF5233D26B300387871 /* SF-Pro-Text-Regular.otf */; };
+		7F2EFC11233D26B400387871 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBF7233D26B300387871 /* SF-Pro-Rounded-Bold.otf */; };
+		7F2EFC13233D26B400387871 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBF9233D26B300387871 /* SF-Pro-Text-Medium.otf */; };
+		7F2EFC16233D26B400387871 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFBFC233D26B300387871 /* SF-Pro-Text-Heavy.otf */; };
+		7F2EFC1A233D26B400387871 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFC00233D26B400387871 /* SF-Pro-Text-Bold.otf */; };
+		7F2EFC20233D26B400387871 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFC06233D26B400387871 /* SF-Pro-Rounded-Regular.otf */; };
+		7F2EFC21233D26B400387871 /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7F2EFC07233D26B400387871 /* SF-Pro-Rounded-Light.otf */; };
 		7FD0AEC0233C88C80095AC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0AEBF233C88C80095AC90 /* AppDelegate.swift */; };
-		7FD0AEC2233C88C80095AC90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0AEC1233C88C80095AC90 /* ViewController.swift */; };
-		7FD0AEC5233C88C80095AC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0AEC3233C88C80095AC90 /* Main.storyboard */; };
+		7FD0AEC2233C88C80095AC90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD0AEC1233C88C80095AC90 /* HomeViewController.swift */; };
+		7FD0AEC5233C88C80095AC90 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0AEC3233C88C80095AC90 /* Home.storyboard */; };
 		7FD0AEC7233C88C80095AC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0AEC6233C88C80095AC90 /* Assets.xcassets */; };
 		7FD0AECA233C88C80095AC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD0AEC8233C88C80095AC90 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F2EFBEB233D241300387871 /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
+		7F2EFBEF233D26B300387871 /* SF-Pro-Text-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Black.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Black.otf"; sourceTree = "<group>"; };
+		7F2EFBF0233D26B300387871 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Light.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		7F2EFBF1233D26B300387871 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Semibold.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		7F2EFBF5233D26B300387871 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Regular.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		7F2EFBF7233D26B300387871 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Bold.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
+		7F2EFBF9233D26B300387871 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Medium.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		7F2EFBFC233D26B300387871 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Heavy.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		7F2EFC00233D26B400387871 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Text-Bold.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		7F2EFC06233D26B400387871 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		7F2EFC07233D26B400387871 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Light.otf"; path = "../../../../../Development/term3/Project/DeskHealth/WorkHeart/WorkHeart/Resources/Fonts/SF-Pro-Rounded-Light.otf"; sourceTree = "<group>"; };
 		7FD0AEBC233C88C80095AC90 /* SwipeCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD0AEBF233C88C80095AC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FD0AEC1233C88C80095AC90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FD0AEC4233C88C80095AC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FD0AEC1233C88C80095AC90 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7FD0AEC4233C88C80095AC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		7FD0AEC6233C88C80095AC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD0AEC9233C88C80095AC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD0AECB233C88C80095AC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,6 +57,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F2EFBEA233D23F200387871 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				7F2EFBEB233D241300387871 /* UIView+Designable.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		7F2EFBED233D264F00387871 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7F2EFBEE233D265900387871 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7F2EFBEE233D265900387871 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7F2EFBF7233D26B300387871 /* SF-Pro-Rounded-Bold.otf */,
+				7F2EFC07233D26B400387871 /* SF-Pro-Rounded-Light.otf */,
+				7F2EFC06233D26B400387871 /* SF-Pro-Rounded-Regular.otf */,
+				7F2EFBEF233D26B300387871 /* SF-Pro-Text-Black.otf */,
+				7F2EFC00233D26B400387871 /* SF-Pro-Text-Bold.otf */,
+				7F2EFBFC233D26B300387871 /* SF-Pro-Text-Heavy.otf */,
+				7F2EFBF0233D26B300387871 /* SF-Pro-Text-Light.otf */,
+				7F2EFBF9233D26B300387871 /* SF-Pro-Text-Medium.otf */,
+				7F2EFBF5233D26B300387871 /* SF-Pro-Text-Regular.otf */,
+				7F2EFBF1233D26B300387871 /* SF-Pro-Text-Semibold.otf */,
+				7FD0AEC6233C88C80095AC90 /* Assets.xcassets */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		7FD0AEB3233C88C80095AC90 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +110,47 @@
 		7FD0AEBE233C88C80095AC90 /* SwipeCalc */ = {
 			isa = PBXGroup;
 			children = (
-				7FD0AEBF233C88C80095AC90 /* AppDelegate.swift */,
-				7FD0AEC1233C88C80095AC90 /* ViewController.swift */,
-				7FD0AEC3233C88C80095AC90 /* Main.storyboard */,
-				7FD0AEC6233C88C80095AC90 /* Assets.xcassets */,
-				7FD0AEC8233C88C80095AC90 /* LaunchScreen.storyboard */,
-				7FD0AECB233C88C80095AC90 /* Info.plist */,
+				7F2EFBED233D264F00387871 /* Assets */,
+				7F2EFBEA233D23F200387871 /* Designables */,
+				7FD0AED5233C8A240095AC90 /* SupportFIles */,
+				7FD0AED3233C8A100095AC90 /* Storyboards */,
+				7FD0AED2233C89ED0095AC90 /* Views */,
+				7FD0AED1233C89DF0095AC90 /* Controllers */,
 			);
 			path = SwipeCalc;
+			sourceTree = "<group>";
+		};
+		7FD0AED1233C89DF0095AC90 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7FD0AEC1233C88C80095AC90 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7FD0AED2233C89ED0095AC90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7FD0AED3233C8A100095AC90 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7FD0AEC3233C88C80095AC90 /* Home.storyboard */,
+				7FD0AEC8233C88C80095AC90 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7FD0AED5233C8A240095AC90 /* SupportFIles */ = {
+			isa = PBXGroup;
+			children = (
+				7FD0AEBF233C88C80095AC90 /* AppDelegate.swift */,
+				7FD0AECB233C88C80095AC90 /* Info.plist */,
+			);
+			path = SupportFIles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +211,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2EFC0B233D26B400387871 /* SF-Pro-Text-Semibold.otf in Resources */,
 				7FD0AECA233C88C80095AC90 /* LaunchScreen.storyboard in Resources */,
 				7FD0AEC7233C88C80095AC90 /* Assets.xcassets in Resources */,
-				7FD0AEC5233C88C80095AC90 /* Main.storyboard in Resources */,
+				7FD0AEC5233C88C80095AC90 /* Home.storyboard in Resources */,
+				7F2EFC09233D26B400387871 /* SF-Pro-Text-Black.otf in Resources */,
+				7F2EFC0F233D26B400387871 /* SF-Pro-Text-Regular.otf in Resources */,
+				7F2EFC1A233D26B400387871 /* SF-Pro-Text-Bold.otf in Resources */,
+				7F2EFC21233D26B400387871 /* SF-Pro-Rounded-Light.otf in Resources */,
+				7F2EFC16233D26B400387871 /* SF-Pro-Text-Heavy.otf in Resources */,
+				7F2EFC11233D26B400387871 /* SF-Pro-Rounded-Bold.otf in Resources */,
+				7F2EFC13233D26B400387871 /* SF-Pro-Text-Medium.otf in Resources */,
+				7F2EFC20233D26B400387871 /* SF-Pro-Rounded-Regular.otf in Resources */,
+				7F2EFC0A233D26B400387871 /* SF-Pro-Text-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,20 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FD0AEC2233C88C80095AC90 /* ViewController.swift in Sources */,
+				7FD0AEC2233C88C80095AC90 /* HomeViewController.swift in Sources */,
 				7FD0AEC0233C88C80095AC90 /* AppDelegate.swift in Sources */,
+				7F2EFBEC233D241300387871 /* UIView+Designable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7FD0AEC3233C88C80095AC90 /* Main.storyboard */ = {
+		7FD0AEC3233C88C80095AC90 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7FD0AEC4233C88C80095AC90 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		7FD0AEC8233C88C80095AC90 /* LaunchScreen.storyboard */ = {
@@ -284,7 +384,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V85JQ3Z9Z;
-				INFOPLIST_FILE = SwipeCalc/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipeCalc/SupportFIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5V85JQ3Z9Z;
-				INFOPLIST_FILE = SwipeCalc/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SwipeCalc/SupportFIles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
