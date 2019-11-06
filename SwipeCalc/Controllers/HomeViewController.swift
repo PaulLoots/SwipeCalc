@@ -161,7 +161,7 @@ class HomeViewController: UIViewController {
         if isHistoryActive {
             return false
         } else {
-            return view.frame.contains(CGPoint(x: x, y: y))
+            return view.frame.contains(CGPoint(x: x, y: y-60))
         }
     }
     
