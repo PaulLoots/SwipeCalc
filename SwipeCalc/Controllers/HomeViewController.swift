@@ -206,7 +206,7 @@ class HomeViewController: UIViewController {
         guard let value = formatter.string(from: NSNumber(value: mathValue)) else { return }
         
         currentAnswer = String(value)
-        if history.count > 10 {
+        if history.count > 9 {
             history = Array(history.dropFirst())
         }
         history.append(calculationString + " = " + String(value))
@@ -300,7 +300,7 @@ class HomeViewController: UIViewController {
     
     func updateAnswerLabel() {
         UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            self.answerLabel.transform = .init(scaleX: 1.5, y: 1.5)
+            self.answerLabel.transform = .init(scaleX: 1.8, y: 1.8)
         })
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             self.impact.impactOccurred()
@@ -315,13 +315,13 @@ class HomeViewController: UIViewController {
     func animateNumberSelected(numberView: UIView) {
         selectionTap.selectionChanged()
         UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            numberView.transform = .init(scaleX: 1.5, y: 1.5)
-            numberView.backgroundColor = UIColor.init(named: "selectedBackground")
+            numberView.transform = .init(scaleX: 1.8, y: 1.8)
+            //numberView.backgroundColor = UIColor.init(named: "selectedBackground")
         })
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 numberView.transform = .identity
-                numberView.backgroundColor = .clear
+                //numberView.backgroundColor = .clear
             })
         }
     }
@@ -329,13 +329,13 @@ class HomeViewController: UIViewController {
     func animateOperatorSelected(numberView: UIView) {
         impact.impactOccurred()
         UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-            numberView.transform = .init(scaleX: 1.5, y: 1.5)
-            numberView.backgroundColor =  UIColor.init(named: "operatorSelectedBackground")
+            numberView.transform = .init(scaleX: 2, y: 2)
+            //numberView.backgroundColor =  UIColor.init(named: "operatorSelectedBackground")
         })
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             UIView.animate(withDuration: 0.3, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
                 numberView.transform = .identity
-                numberView.backgroundColor = .clear
+                //numberView.backgroundColor = .clear
             })
         }
     }
