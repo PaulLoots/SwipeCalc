@@ -14,7 +14,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h6 align="center">Paul Loots Native iOS Development 304</h6>
+<h6 align="center">Paul Loots NID 304</h6>
 <br />
 <br />
 <p align="center">
@@ -31,7 +31,6 @@
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://youtu.be/Hsav9FGcjAY">View Demo</a>
   </p>
 </p>
 
@@ -41,17 +40,14 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [AI](#ai)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Features](#features)
-   * [Avatar](#avatar)
-   * [Multiplayer](#multiplayer)
-   * [Sentences and Score](#sentences-and-score)
-   * [Scoreboard](#scoreboard)
-   * [Dark Mode](#dark-mode)
+   * [Design](#design)
+   * [Interaction](#interaction)
+   * [History and Memory](#history-and-memory)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -98,35 +94,24 @@ Open in Xcode 11 or later.
 <!-- FEATURES -->
 ## Features
 
-### Avatar
+### Design
 
 ![image1][image1]
 
-Choose your alien and name. Each alien has a colour which is reflected throughout the UI.
+Swipe Calc breaks free from the traditional calculator app design with an interface that has simplicity in mind.
 
-### Multiplayer
+### Interaction
 
 ![image2][image2]
 
-Play with all your friends. There is no limit to how many people can join a game!
+Select numbers and operators by swipingon the screen and let go to view the answer.
 
-### Sentences and Score
+### History and Memory
 
 ![image3][image3]
 
-Construct a sentence by selecting words. The watson AI will then give you a score based on how well your sentence adheres to the round's emotion catagory. 
+All calculations are saved to the build in memory which can easily be recalled with a tap.
 
-### Scoreboard
-
-![image4][image4]
-
-See everyones sentences and give your favorites a thumbs up. In the end the favorite sentence will be featured on the leaderboard.
-
-### Dark Mode
-
-![image5][image5]
-
-Word Space fully supports iOS 13 dark mode.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -173,5 +158,3 @@ Project Link: [https://github.com/PaulLoots/SwipeCalc](https://github.com/PaulLo
 [image1]: Images/2.png
 [image2]: Images/3.png
 [image3]: Images/4.png
-[image4]: Images/5.png
-[image5]: Images/6.png
